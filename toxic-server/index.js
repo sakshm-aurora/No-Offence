@@ -2,8 +2,7 @@ const express = require("express");
 const app = express();
 const Perspective = require('perspective-api-client');
 const perspective = new Perspective({apiKey: "AIzaSyD8VNKVLmU7zuZt-lYCWQGlt56AWG7QgCM"});
-
-
+app.use(express.static('public'))
 app.get("/check", async (req,res) => {
     const text = req.query.text;
     if(!text){
@@ -17,6 +16,8 @@ app.get("/check", async (req,res) => {
             success: true, percentage
         })
     }
-    
+})
+app.get("*", (req,res) => {
+    res.sendFile('/public/index.html');
 })
 app.listen(process.env.PORT || 8080);
