@@ -18,7 +18,7 @@ of a voting system using decentralized application and block-chain.
 The proposed solution detects toxicity percentage of a comment and 
 if it is more than 75% then it flags the same as toxic and sends the same
 for a review to evaluate if it is safe or not using a blockchain based decentralized 
-ethereum network.
+ethereum network for voting.
 
 # Project Description
 N/A
