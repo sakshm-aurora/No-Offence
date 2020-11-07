@@ -69,16 +69,16 @@ For developing the blockchain based voting decentralized app the following tech 
 N/A
 
 # To run the project , run following commands:
-1. Open cmd in the toxic-server folder and run the following command:
-        | npm install
-        | npm start
-2. Now open another cmd in dapp folder and run the following command:
-        | npm install
-        | npm install -g truffle@5.1.18
-        | truffle compile
-        | truffle migrate
-        | truffle test (Optional)
-        | npm run dev
+1. Open cmd in the toxic-server folder and run the following command: <br>
+        | npm install<br>
+        | npm start<br>
+2. Now open another cmd in dapp folder and run the following command:<br>
+        | npm install<br>
+        | npm install -g truffle@5.1.18<br>
+        | truffle compile<br>
+        | truffle migrate<br>
+        | truffle test (Optional)<br>
+        | npm run dev<br>
  3. Now in a browser , headover to http://localhost:3000
  4. Before running make sure Metamask is configured on your browser as an extension
     & Ganache is running in the background.
