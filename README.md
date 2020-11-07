@@ -42,7 +42,12 @@ Phase 2 - Voting Dapp
 3. The total votes for the comment being safe or not safe are displayed on the frontend in real time.
 
 # Problems Faced
-N/A
+1. Writing voting contract in solidity.
+2. Configuring and running Metamask with web3 server.
+3. Truffle Framework configuration & working.
+4. Setting up Perspective API on google cloud.
+5. Configuring server for the API using Nodejs & Express.
+6. Integrating Phase 1 & Phase 2 of the project together.
 
 # Tech-Stack Used
 For checking the toxicity of a comment we used the following tech stack:
@@ -64,7 +69,23 @@ For developing the blockchain based voting decentralized app the following tech 
 N/A
 
 # To run the project , run following commands:
-N/A
+1. Open cmd in the toxic-server folder and run the following command:
+        | npm install
+        | npm start
+2. Now open another cmd in dapp folder and run the following command:
+        | npm install
+        | npm install -g truffle@5.1.18
+        | truffle compile
+        | truffle migrate
+        | truffle test (Optional)
+        | npm run dev
+ 3. Now in a browser , headover to http://localhost:3000
+ 4. Before running make sure Metamask is configured on your browser as an extension
+    & Ganache is running in the background.
+ 5. To run in a local environment , you must import ethereum accounts from Ganache to Metamask 
+    in order to vote.
+ 6. Done!
 
 # References
-N/A
+1. https://github.com/sakshm-aurora/USA-Election-Dapp-POC
+2. https://github.com/conversationai/perspectiveapi
