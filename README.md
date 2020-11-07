@@ -65,8 +65,9 @@ For developing the blockchain based voting decentralized app the following tech 
 5. Ganache
 6. Metamask
 
-# Video Link
-N/A
+# Video/PPT Link
+ Presentation : https://docs.google.com/presentation/d/1k_e0O5WA9MIwL5yeEeTSzfLfOllF6J7nyXmEEJ26RuM/edit?usp=sharing
+ Demo Video (used in ppt) : https://drive.google.com/file/d/11tjqFxXq6LaSS1bNL6VU45s31RqjwsQz/view?usp=sharing
 
 # To run the project , run following commands:
 1. Open cmd in the toxic-server folder and run the following command: <br>
