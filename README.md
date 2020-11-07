@@ -22,7 +22,7 @@ ethereum network for voting.
 
 # Project Description
 The project is divided into two phases :
-Phase 1 - Tocicity Checking
+Phase 1 - Toxicity Checking
 Phase 2 - Voting Dapp
 
 ## Phase1
