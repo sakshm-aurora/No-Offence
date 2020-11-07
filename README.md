@@ -21,13 +21,44 @@ for a review to evaluate if it is safe or not using a blockchain based decentral
 ethereum network for voting.
 
 # Project Description
-N/A
+The project is divided into two phases :
+Phase 1 - Tocicity Checking
+Phase 2 - Voting Dapp
+
+## Phase1
+1. We take a comment as user input from a simple html form.
+2. The comment is then checked for Toxicity using ML based NLP algorothims.
+3. We do this by using Perspective API on Google Cloud.
+4. The response we get gives us the probability of the comment being toxic.
+5. The same is displayed on our frontend as well in percentage.
+6. If the toxicity percentage is found to be more than 75% then it is flagged toxic and 
+    the user is redirected to a voting dapp i.e the phase 2 of our project.
+7. If the toxicity percentage is less than 75% the same is displayed on the frontend.
+
+## Phase2
+1. When redirected to the voting dapp, the user is asked to login on the
+    ethereum network using metamask.
+2. Once logged in, user can vote for the comment to be safe or not safe.
+3. The total votes for the comment being safe or not safe are displayed on the frontend in real time.
 
 # Problems Faced
 N/A
 
 # Tech-Stack Used
-N/A
+For checking the toxicity of a comment we used the following tech stack:
+1. Nodejs
+2. Express
+3. HTML , CSS
+4. Google Cloud APIs'
+5. Perspective API
+
+For developing the blockchain based voting decentralized app the following tech stack was used:
+1. Solidity 
+2. Nodejs
+3. Truffle Framework
+4. HTML , CSS
+5. Ganache
+6. Metamask
 
 # Video Link
 N/A
