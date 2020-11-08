@@ -21,8 +21,8 @@ for a review to evaluate if it is safe or not using a blockchain based decentral
 ethereum network for voting.
 
 # Project Description
-The project is divided into two phases :
-Phase 1 - Toxicity Checking
+The project is divided into two phases :<br>
+Phase 1 - Toxicity Checking<br>
 Phase 2 - Voting Dapp
 
 ## Phase1
@@ -80,7 +80,7 @@ For developing the blockchain based voting decentralized app the following tech 
         | truffle migrate<br>
         | truffle test (Optional)<br>
         | npm run dev<br>
- 3. Now in a browser , headover to http://localhost:3000
+ 3. Now in a browser , headover to http://localhost:8080
  4. Before running make sure Metamask is configured on your browser as an extension
     & Ganache is running in the background.
  5. To run in a local environment , you must import ethereum accounts from Ganache to Metamask 
