@@ -1,4 +1,4 @@
-# SVPCET-Hackathon-Team1-1
+# No Offence!
 Project submitted under SVPCET Virtual Hackathon
 
 Team Members:
